@@ -14,6 +14,7 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet"
           href="./css/style.css">
+          <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 
 <body>
@@ -68,10 +69,26 @@
         <section class="post overlay">
             <div class="container">
                 <h1 class="post-title">Ефективні рішення <br> для вашого бізнесу</h1>
-                <button data-modal-open
-                        type="button"
-                        class="post-button"
-                        data-modal-open>Замовити послугу</button>
+                <button type="button" class="post-button" data-modal-open>Замовити послугу</button>
+                <!-- modalka -->
+                <div class="backdrop is-hiddn" data-modal>
+                    <div class="modal">
+                        <div class="modal-close-button-div">
+                            <div class="modal-close-button" type="button" data-modal-close>
+                                X
+                            </div>
+                        </div>
+                        <form class="modal-form">
+                            <p class="modal-form-title">
+                                Залиште свох дані, ми вам передзвонимо
+                            </p>
+                            <div class="modal-form-filed">
+                                <p class="modal-form-label-title">Ім'я</p>
+                                <div class=""></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
 
