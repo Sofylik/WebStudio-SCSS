@@ -148,11 +148,13 @@ img {
 }
 
 /*HERO*/
+
 .post {
   background-color: var(--secondary-background-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  transition: color 250ms var(--time-function);
 }
 
 .post-title {

@@ -47,6 +47,7 @@ button {
 /*CATOLOG*/
 .portfolio-item .portfolio-link {
     display: block;
+    transition: color 250ms var(--time-function);
 }
 
 .portfolio-item {
