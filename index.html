@@ -75,17 +75,82 @@
                     <div class="modal">
                         <div class="modal-close-button-div">
                             <div class="modal-close-button" type="button" data-modal-close>
-                                X
+                                <svg class="modal-form-icon">
+                                    <use href="./images/close-black-18dp (2) 1.svg"></use>
+                                </svg>
                             </div>
                         </div>
                         <form class="modal-form">
                             <p class="modal-form-title">
                                 Залиште свох дані, ми вам передзвонимо
                             </p>
-                            <div class="modal-form-filed">
+                            <div class="modal-form-field">
                                 <p class="modal-form-label-title">Ім'я</p>
-                                <div class=""></div>
+                                <div class="modal-form-label-svg-div">
+                                    <label for="mail"
+                                           class="modal-form-label">
+                                        <input type="email"
+                                               class="form-input"
+                                               name="email"
+                                               id="mail">
+                                    </label>
+                                    <svg class="modal-form-icon"
+                                           width="18"
+                                           height="18">
+                                        <use href="images/person-black-18dp 1.svg"></use>
+                                </svg>
+                                </div>
                             </div>
+                            <div class="modal-form-field">
+                                <p class="modal-form-label-title">Телефон</p>
+                                <div class="modal-form-label-svg-div">
+                                    <label for="mail"
+                                           class="modal-form-label">
+                                        <input type="email"
+                                               class="form-input"
+                                               name="email"
+                                               id="mail">
+                                    </label>
+                                    <svg class="modal-form-icon"
+                                           width="18"
+                                           height="18">
+                                        <use href="./images/phone-black-18dp 1.svg"></use>
+                                </svg>
+                                </div>
+                            </div>
+
+                            <div class="modal-form-field">
+                                <p class="modal-form-label-title">Пошта</p>
+                                <div class="modal-form-label-svg-div">
+                                    <label for="mail" class="modal-form-label">
+                                        <input type="email" class="form-input" name="email" id="mail">
+                                    </label>
+                                    <svg class="modal-form-icon"
+                                           width="18"
+                                           height="18">
+                                        <use href="./images/email-black-18dp 1.svg"></use>
+                                    </svg>
+
+                                </div>
+
+                            </div>
+                            <div class="modal-form-field">
+                                <label for="comment" class="modal-form-label">
+                                    Коментар
+                                </label>
+                                <textarea class="comment" name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
+                            </div>
+                            <label class="modal-form-policy">
+                                <input type="checkbox" class="modal-form-policy-checkbox" id="policy">
+                                <span class="mosdal-form-policy-text">
+                                    Погоджуюся з розсилкою та приймаю
+                                    <a href="#" class="modal-form-policy-link">Умови договору</a>
+                                </span>
+                            </label>
+                                <label>
+                                    <button type="submit" class="post-button">Відправити</button>
+                                </label>
+                            
                         </form>
                     </div>
                 </div>
