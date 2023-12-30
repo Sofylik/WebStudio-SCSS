@@ -1,1 +1,1 @@
-# WebStudio1.2
+# WebStudio-SCSS
