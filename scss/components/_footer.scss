@@ -1,0 +1,108 @@
+.footer {
+    background-color: var($secondary-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__address {
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var($secondary-address-color);
+}
+
+.footer__address-item {
+    margin-bottom: 9px;
+}
+
+.footer__address-text {
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer__address-list .link {
+    color: var($secondary-address-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.footer__wrapper {
+    display: flex;
+    margin: 0 auto;
+    align-items: baseline;
+}
+
+.footer__social-link-item {
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+}
+
+.footer__social-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: var($secondary-text-color);
+}
+.footer {
+    background-color: var($secondary-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__address {
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var($secondary-address-color);
+}
+
+.footer__address-item {
+    margin-bottom: 9px;
+}
+
+.footer__address-text {
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer__address-list .link {
+    color: var($secondary-address-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.footer__wrapper {
+    display: flex;
+    margin: 0 auto;
+    align-items: baseline;
+}
+
+.footer__social-link-item {
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+}
+
+.footer__social-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: var($secondary-text-color);
+}
