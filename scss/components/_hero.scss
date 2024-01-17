@@ -1,13 +1,13 @@
 .hero {
-    background-color: var($secondary-background-color);
+    background-color: $secondary-background-color;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    transition: color 250ms var($time-function);
+    transition: color 250ms $time-function;
 }
 
 .hero__title{
-    color: var($secondary-text-color);
+    color: $secondary-text-color;
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
@@ -18,8 +18,8 @@
 }
 
 .hero__button {
-    color: var($secondary-text-color);
-    background-color: var($accent-color);
+    color: $secondary-text-color;
+    background-color: $accent-color;
     margin: 0 auto;
     padding: 10px 30px;
     font-weight: bold;

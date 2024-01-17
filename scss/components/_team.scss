@@ -1,6 +1,6 @@
 .team {
-    color: var($title-text-color);
-    background-color: var($background-team-color);
+    color: $title-text-color;
+    background-color: $background-team-color;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -14,7 +14,7 @@
 }
 
 .team__name {
-    color: var($title-text-color);
+    color: $title-text-color;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -31,7 +31,7 @@
 
 .team__social-list-icon {
     flex-direction: column;
-    background-color: var($primary-background-color);
+    background-color:$primary-background-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -52,7 +52,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var($icon-color);
+    fill: $icon-color;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -61,13 +61,13 @@
 .team__social-list-icon{
     width: 20px;
     height: 20px;
-    transition: background-color 250ms var($time-function), fill 250ms var($time-function);
+    transition: background-color 250ms $time-function, fill 250ms $time-function;
 }
 
 .team__social-list-link:hover,
 .team__social-list-link:focus {
-    fill: var($primary-background-color);
-    background-color: var($accent-color);
+    fill: $primary-background-color;
+    background-color: $accent-color;
 }
 
 .team__social-list-item:not(:first-child) {

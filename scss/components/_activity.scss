@@ -1,5 +1,5 @@
 .activity {
-    color: var($title-text-color);
+    color:$title-text-color;
     padding-top: 94px;
     padding-bottom: 94px;
     box-sizing: border-box;
@@ -31,7 +31,7 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    color: var($secondary-text-color);
+    color: $secondary-text-color;
     background: rgba(47, 48, 58, 0.8);
     display: flex;
     justify-content: center;

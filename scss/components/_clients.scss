@@ -1,5 +1,5 @@
 .clients {
-    color: var($title-text-color);
+    color:$title-text-color;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -19,7 +19,7 @@
     border: 1px solid #afb1b8;
     box-sizing: border-box;
     border-radius: 4px;
-    fill: var($icon-color);
+    fill:$icon-color;
 }
 
 .clients__item {
@@ -28,10 +28,10 @@
 
 .clients__link:hover,
 .clients__link:focus {
-    fill: var($accent-color);
-    border-color: var($accent-color);
+    fill: accent-color;
+    border-color:accent-color;
 }
 
 .clients__icon {
-    transition: color 250ms var($time-function);
+    transition: color 250ms $time-function;
 }

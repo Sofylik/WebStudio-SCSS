@@ -16,7 +16,7 @@
 .site-nav__link.current::after {
     content: "";
     display: block;
-    background-color: var($accent-color);
+    background-color: $accent-color;
     width: 100%;
     height: 4px;
     border-radius: 2px;
@@ -26,7 +26,7 @@
 }
 
 .site-nav__item .site-nav__link.current {
-    color: var($accent-color);
+    color:$accent-color;
 }
 
 .container-header {
@@ -39,7 +39,7 @@
 }
 
 .site-nav {
-    color: var($title-text-color);
+    color: $title-text-color;
     display: flex;
 }
 
@@ -58,24 +58,24 @@
 }
 
 .contacts .contact__link {
-    color: var($primary-text-color);
+    color: $primary-text-color;
 }
 
 .contacts__item .contact__link {
     display: flex;
     align-items: center;
-    transition: color 250ms var($time-function);
+    transition: color 250ms $time-function;
 }
 
 .contacts .contact__link:hover {
-    color: var($accent-color);
+    color: $accent-color;
 }
 
 .contact__icon {
-    transition: color 250ms var($time-function);
+    transition: color 250ms $time-function;
 }
 
 .contact-link:hover .contact-icon {
-    fill: var($accent-color);
+    fill: $accent-color;
 
 }

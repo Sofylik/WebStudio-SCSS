@@ -1,5 +1,5 @@
 .footer {
-    background-color: var($secondary-background-color);
+    background-color: $secondary-background-color;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -8,7 +8,7 @@
     font-style: normal;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: var($secondary-address-color);
+    color: $secondary-address-color;
 }
 
 .footer__address-item {
@@ -23,7 +23,7 @@
 }
 
 .footer__address-list .link {
-    color: var($secondary-address-color);
+    color: $secondary-address-color;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -50,10 +50,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 20px;
-    color: var($secondary-text-color);
+    color: $secondary-text-color;
 }
 .footer {
-    background-color: var($secondary-background-color);
+    background-color: $secondary-background-color;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -62,7 +62,7 @@
     font-style: normal;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: var($secondary-address-color);
+    color: $secondary-address-color;
 }
 
 .footer__address-item {
@@ -77,7 +77,7 @@
 }
 
 .footer__address-list .link {
-    color: var($secondary-address-color);
+    color: $secondary-address-color;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -104,5 +104,5 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 20px;
-    color: var($secondary-text-color);
+    color: $secondary-text-color;
 }

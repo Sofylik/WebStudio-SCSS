@@ -14,7 +14,7 @@
     height: 120px;
     border-radius: 4px;
     background-size: contain;
-    background: var($background-team-color);
+    background: $background-team-color;
 }
 
 .benefits__icon-antenna::before {
@@ -56,7 +56,7 @@
     height: 120px;
     border-radius: 4px;
     background-size: contain;
-    background: var($background-team-color);
+    background: $background-team-color;
 }
 
 .benefits__icon-antenna::before {
