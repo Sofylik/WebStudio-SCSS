@@ -99,11 +99,11 @@ img {
 }
 
 .navigation .site-nav__item:not(:last-child) {
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .contacts__item:not(:last-child) {
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .contacts {

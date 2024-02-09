@@ -7,7 +7,12 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-
+.logo{
+    padding-right: 93px;
+}
+.logo__light{
+    color: $accent-color;
+}
 
 .site-nav__link {
     position: relative;
@@ -26,7 +31,7 @@
 }
 
 .site-nav__item .site-nav__link.current {
-    color:$accent-color;
+    color: $accent-color;
 }
 
 .container-header {
@@ -44,11 +49,11 @@
 }
 
 .navigation .site-nav__item:not(:last-child) {
-    margin-right: 50px;
+    padding-right: 50px;
 }
 
 .contacts__item:not(:last-child) {
-    margin-right: 50px;
+    padding-right: 50px;
 }
 
 .contacts {
@@ -77,5 +82,4 @@
 
 .contact-link:hover .contact-icon {
     fill: $accent-color;
-
 }
